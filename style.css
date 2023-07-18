@@ -17,7 +17,7 @@ body{
     min-height: 50px;
     display: flex;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1140px;
     height: 130px;
     margin: 0 auto;
     
@@ -51,8 +51,9 @@ height: 40px;
     display: flex;
     width: 50%;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
 .item-container a, .nav-btn{
     text-decoration: none;
@@ -75,22 +76,29 @@ justify-content: space-around;
 
 /* sing in section start */
 .sign-in-section{
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+    
+}
+.sign-in-items{
     height: 100vh;
     background-image: url("./images/Group\ 14.png");
     background-size: 100%;
-    max-width: 50%;
+    max-width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
+    margin: 0;
+    width: 50%;
 
 }
 
 .sign-in-text{
     text-align: center;
-    margin-inline: 0;
-    padding-inline: 0;
+    
 
 }
 .sign-in-text p{
@@ -128,6 +136,15 @@ color: white;
 padding: 21px 40px;
 gap: 10px;
 }
+.sign-in-img{
+    width: 50%;
+    
+
+}
+.sign-in-img img{
+    width: 100%;
+}
+
 
 
 
