@@ -7,6 +7,12 @@ body{
 }
 
 /* nav style starts */
+.nav-section{
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+
 .nav-container{
     min-height: 50px;
     display: flex;
@@ -15,8 +21,8 @@ body{
     height: 130px;
     margin: 0 auto;
     
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+    
 }
 
 .logo-container{
