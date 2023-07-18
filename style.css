@@ -73,6 +73,63 @@ display: flex;
 justify-content: space-around;
 }
 
+/* sing in section start */
+.sign-in-section{
+    height: 100vh;
+    background-image: url("./images/Group\ 14.png");
+    background-size: 100%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.sign-in-text{
+    text-align: center;
+    margin-inline: 0;
+    padding-inline: 0;
+
+}
+.sign-in-text p{
+    text-align: left;
+}
+.sign-in-p1{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase
+}
+.sign-in-p2{
+font-size: 95px;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.btn-1{
+padding: 21px 40px;
+gap: 10px;
+background: #FF42A5;
+color: white;
+border-radius: 48px;
+}
+.btn-2{
+border-radius: 48px;
+background: #4EC5F7;
+color: white;
+padding: 21px 40px;
+gap: 10px;
+}
+
+
 
 
 
