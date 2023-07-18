@@ -43,7 +43,7 @@ body{
 .logo-container img{
     margin-right: 20px;
     width: 86.041px;
-height: 40px;
+    height: 40px;
 
 }
 
@@ -144,6 +144,69 @@ gap: 10px;
 .sign-in-img img{
     width: 100%;
 }
+
+
+/******************* responsive style****************** */
+@media screen and (max-width: 576px) {
+    
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 400px;
+        
+    
+      }
+      .logo-container{
+    
+        
+        display: flex;
+        justify-content: center;
+        
+      }
+      .item-container{
+        flex-direction: column;
+        gap: 20px;
+        
+      }
+    
+      
+      .sign-in-section {
+        flex-direction: column;
+        flex-direction: column-reverse;
+      }
+
+      
+    
+      .sign-in-items,
+      .sign-in-img {
+        width: 100%;
+        padding-right: 0;
+      }
+    
+      .sign-in-p1 {
+        font-size: 24px;
+      }
+    
+      p {
+        font-size: 16px;
+      }
+    
+      .btn-1,
+      .btn-2 {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+}
+
+
+    
+    
+
+
+    
+
 
 
 
