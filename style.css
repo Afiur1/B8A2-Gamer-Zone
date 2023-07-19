@@ -265,11 +265,9 @@ line-height: 45px;
 background: #FFF;
 }
 .game-types-container{
-    max-width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+   
+    display: grid;
+    grid-template-columns: repeat("3, 1fr");
     gap: 20px;
     
 }
@@ -455,6 +453,27 @@ font-weight: 500;
         bottom: auto;
         max-width: 100%;
         margin-top: 20px;
+      }
+      .footer-container {
+        margin-left: 20px;
+        flex-wrap: wrap;
+      }
+    
+      .footer-container .logo-container {
+        flex-basis: 100%;
+        text-align: center;
+      }
+    
+      .footer-menue {
+        flex-basis: 100%;
+      }
+    
+      .social-media {
+        max-width: 100%;
+      }
+    
+      .policy-container {
+        max-width: 100%;
       }
 
 }
