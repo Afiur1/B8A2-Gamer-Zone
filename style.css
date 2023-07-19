@@ -207,14 +207,16 @@ line-height: 45px;
     display: flex;
     justify-content: space-between;
     
+    
 }
 .online-game-img img{
-    width: 23.5%;
-    gap: 5px;
-   
+    width: 90%;
+    gap: auto;
     
-    
-    
+}
+.online-game-img figcaption{
+    margin-top: 15px;
+
 }
 
 
@@ -286,6 +288,31 @@ line-height: 45px;
       .unleash {
         font-size: 24px;
         line-height: 35px;
+      }
+
+      .online-game-container {
+        padding: 20px;
+      }
+    
+      .online-game-img {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+      }
+      
+    
+      .online-game-img img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+        
+      }
+    
+      .online-game-img figcaption {
+        text-align: center;
+        margin-bottom: 15px;
       }
 
 }
