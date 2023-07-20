@@ -248,29 +248,33 @@ line-height: 45px;
     bottom: -10%;
     max-width: 50%;
 }
+
 /* game types section style starts */
+
 .game-types{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    align-items: center;
-    
 }
-
-.games{
-    width: 210px;
-    height: 60px;
+.games{ 
+    border-radius: 50px;
+    background: #FFF;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-radius: 50px;
-background: #FFF;
+    width: 210px;
+    height: 60px;
+    margin: 10px;
+    justify-items: center;
+    text-align: end;
 }
+
 .game-types-container{
-   
+    max-width: 1140px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat("3, 1fr");
-    gap: 20px;
-    
+  grid-template-columns: repeat(5, 0fr);
+  padding: 50px;
+  
 }
+
 
 /* Footer-section start */
 footer{
