@@ -200,6 +200,7 @@ line-height: 45px;
 .online-game-img{
     display: flex;
     justify-content: space-between;
+    position:relative;
 }
 .online-game-img img{
     width: 90%;
@@ -208,6 +209,42 @@ line-height: 45px;
 .online-game-img figcaption{
     margin-top: 15px;
 }
+.play-btn{
+    position: relative;
+    
+    
+}
+.breaking-game{
+    width: 100%;
+    filter: brightness(100%); /* Set initial brightness to 100% (normal) */
+    transition: filter 0.3s ease;
+}
+.watch-now{
+    position: absolute;
+    max-width: 20%;
+    left: 35%;
+    bottom: 50%;
+
+    
+}
+.watch-now-cation{
+    position: absolute;
+    left: 27%;
+    bottom: 40%;
+    font-size: 20px;
+    font-weight: 600;
+    color:#FF42A5  ;
+    transition: opacity 0.3s ease;
+    
+}
+.breaking-game:hover{
+  filter: brightness(60%);
+  
+}
+
+    
+    
+
 
 /* instant play section */
 
@@ -338,6 +375,8 @@ font-weight: 500;
 
 
 /******************* responsive style****************** */
+
+/* For mobile screen */
 @media screen and (max-width: 576px) {
     
     .nav-container {
@@ -479,7 +518,171 @@ font-weight: 500;
       .policy-container {
         max-width: 100%;
       }
+      
+      .game-types-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      .games {
+        width: 100%;
+        height: auto;
+        justify-items: center;
+        text-align: center;
+      }
 
+}
+
+/*********************** For tab screen ************************/
+
+/* General styles for all screen sizes */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ... Other existing styles ... */
+
+/* Nav styles for tablet-sized screens */
+@media screen and (min-width: 576px) and (max-width: 932px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container {
+        width: 100%;
+    }
+
+    .item-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/* Sign-in section styles for tablet-sized screens */
+@media screen and (min-width: 576px) and (max-width: 932px) {
+    .sign-in-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sign-in-items {
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .sign-in-img {
+        width: 100%;
+    }
+}
+
+/* Know-more section styles for tablet-sized screens */
+@media screen and (min-width: 576px) and (max-width: 932px) {
+    .know-more-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .know-more-img {
+        max-width: 80%;
+    }
+
+    .know-more-details {
+        max-width: 80%;
+    }
+}
+
+/* Online game section styles for tablet-sized screens */
+@media screen and (min-width: 576px) and (max-width: 932px) {
+    .online-game-img img {
+        width: 80%;
+    }
+
+    .online-game-img figcaption {
+        font-size: 12px;
+    }
+
+    .play-btn img {
+        max-width: 30%;
+        left: 35%;
+    }
+
+    .watch-now-cation {
+        font-size: 14px;
+    }
+}
+
+/* Instant play section styles for tablet-sized screens */
+@media screen and (min-width: 576px) and (max-width: 932px) {
+    .instant-play-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intant-play-text {
+        max-width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .instant-play-img img {
+        width: 80%;
+    }
+
+    .small-img {
+        max-width: 40%;
+        left: -18%;
+        bottom: -8%;
+    }
+}
+
+/* Game types section styles for tablet-sized screens */
+@media screen and (min-width: 576px) and (max-width: 932px) {
+    .game-types-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .games {
+        width: 100%;
+        height: auto;
+        justify-items: center;
+        text-align: center;
+    }
+}
+
+/* Footer section styles for tablet-sized screens */
+@media screen and (min-width: 576px) and (max-width: 932px) {
+    .footer-container {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .footer-menue {
+        flex-wrap: wrap;
+    }
+
+    .footer-menue p {
+        width: 50%;
+    }
+
+    .social-media {
+        max-width: 100%;
+    }
+
+    .policy-container {
+        max-width: 100%;
+    }
+
+    .copy-right {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
 }
 
 
